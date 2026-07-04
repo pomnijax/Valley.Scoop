@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Valley.Scoop</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Floating Decorations -->
+<div class="floating floating1"></div>
+<div class="floating floating2"></div>
+<div class="floating floating3"></div>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+<img src="https://img.sanishtech.com/u/878b5647b2ffe11c874703b934e41dc6.jpg" alt="Valley Scoop Logo" loading="lazy" style="max-width:100%; height:auto;">
+<span>Valley.Scoop</span>
+
+</div>
+
+<div class="nav-links">
+
+<a href="#shop">Shop</a>
+<a href="#about">About</a>
+<a href="#faq">FAQ</a>
+
+</div>
+
+<div class="cart-icon">
+
+🛒
+<span id="cart-count">0</span>
+
+</div>
+
+</nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>
+A little box of happiness,
+<br>
+waiting just for you.
+</h1>
+
+<p>
+
+Every scoop is carefully packed with
+cute Sanrio surprises.
+
+Collect.
+Open.
+Smile.
+
+</p>
+
+<a href="#shop">
+
+<button>
+
+Shop Now ✨
+
+</button>
+
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="https://img.sanishtech.com/u/878b5647b2ffe11c874703b934e41dc6.jpg" alt="Valley Scoop Logo" loading="lazy" style="max-width:100%; height:auto;">
+
+</div>
+
+</section>
+
+<!-- ================= SHOP ================= -->
+
+<section id="shop">
+
+<h2>
+
+Choose Your Scoop
+
+</h2>
+
+<div class="products">
+
+<!-- Small -->
+
+<div class="product">
+
+<div class="product-image">
+
+🎀
+
+</div>
+
+<h3>
+
+Small Scoop
+
+</h3>
+
+<p>
+
+Perfect for a little surprise.
+
+</p>
+
+<span>
+
+Rp29.000
+
+</span>
+
+<button onclick="addCart('Small Scoop',29000)">
+Add to Basket
+</button>
+
+</div>
+
+<!-- Medium -->
+
+<div class="product">
+
+<div class="product-image">
+
+☁️
+
+</div>
+
+<h3>
+
+Medium Scoop
+
+</h3>
+
+<p>
+
+More surprises.
+More excitement.
+
+</p>
+
+<span>
+
+Rp75.000
+
+</span>
+
+<button onclick="addCart('Medium Scoop',75000)">
+Add to Basket
+</button>
+
+</div>
+
+<!-- Large -->
+
+<div class="product">
+
+<div class="product-image">
+
+🎁
+
+</div>
+
+<h3>
+
+Large Scoop
+
+</h3>
+
+<p>
+
+The ultimate mystery experience.
+
+</p>
+
+<span>
+
+Rp85.000
+
+</span>
+
+<button onclick="addCart('Large Scoop',85000)">
+Add to Basket
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about">
+
+<h2>
+
+Why Valley.Scoop?
+
+</h2>
+
+<div class="features">
+
+<div>
+
+🎀
+
+<h3>
+
+Cute Packaging
+
+</h3>
+
+<p>
+
+Packed carefully
+with love.
+
+</p>
+
+</div>
+
+<div>
+
+✨
+
+<h3>
+
+Authentic Items
+
+</h3>
+
+<p>
+
+Every scoop contains
+genuine merchandise.
+
+</p>
+
+</div>
+
+<div>
+
+📦
+
+<h3>
+
+Indonesia Shipping
+
+</h3>
+
+<p>
+
+Ships nationwide.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FAQ ================= -->
+
+<section id="faq">
+
+<h2>
+
+Frequently Asked Questions
+
+</h2>
+
+<div class="faq-item">
+
+<h3>
+
+What is a Mystery Scoop?
+
+</h3>
+
+<p>
+
+A random selection of Sanrio merchandise.
+
+Every scoop is different!
+
+</p>
+
+</div>
+
+<div class="faq-item">
+
+<h3>
+
+How do I order?
+
+</h3>
+
+<p>
+
+Choose your scoops,
+then continue to WhatsApp
+to confirm shipping
+and payment.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- ================= CTA ================= -->
+
+<section class="order">
+
+<h2>
+
+Ready to discover your surprise?
+
+</h2>
+
+<button id="orderButton">
+
+💌 Send My Order
+
+</button>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<p>
+
+© 2026 Valley.Scoop
+
+Made with 🎀
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
